@@ -23,7 +23,7 @@ setSecondsTimeoutArgs(function(arg1, arg2) {
 ***********************************************************************/
 
 function setSecondsTimeoutArgs(cb, delayInSeconds, ...args) {
-  setTimeout(cb,delayInSeconds * 1000, ...args)
+  setTimeout(cb, delayInSeconds * 1000, ...args)
 }
 
 function printSum(num1, num2, num3) {
